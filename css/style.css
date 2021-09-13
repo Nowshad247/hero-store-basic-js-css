@@ -59,8 +59,14 @@ justify-content: space-around;
   align-items: center;
   justify-content: center;
 }
+.product{
+  height: 100%;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 10px;
+}
 .single-product {
   padding: 15px;
+  height: 70%;
   transition: 0.6s;
 }
 .product-title{
@@ -71,7 +77,7 @@ justify-content: space-around;
 .product-title p{
   max-height: 90%;
 }
-.single-product:hover {
+.product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
