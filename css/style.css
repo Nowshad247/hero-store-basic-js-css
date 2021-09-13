@@ -98,6 +98,10 @@ justify-content: space-around;
 .cart-main {
   padding-right: 30px;
 }
+.footer{
+  height: 100px;
+  line-height: 100px;
+}
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
